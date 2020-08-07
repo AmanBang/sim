@@ -77,7 +77,7 @@ else{
     setTimeout(function() {
         $("body").removeClass("game-over");
     }, 100);
-    $("h1").text(`Chutiya sala, <br> chal dubara start kr by pressing key`);
+    $("h1").text(`Wrong, restart the game by pressing a key`);
     $(document).keydown(function () { 
         startOver();
     });
